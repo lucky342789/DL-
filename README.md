@@ -1,4 +1,4 @@
-# 🍅 Deep Learning for Tomato Leaf Disease Classification
+#  Deep Learning for Tomato Leaf Disease Classification
 
 <p align="center">
 
@@ -14,7 +14,7 @@ A collection of four progressively advanced image classification projects built 
 
 ---
 
-# 📑 Table of Contents
+# Table of Contents
 
 - Repository Overview
 - Learning Objectives
@@ -32,7 +32,7 @@ A collection of four progressively advanced image classification projects built 
 
 ---
 
-# 🎯 Learning Objectives
+#  Learning Objectives
 
 - Build neural networks from scratch using PyTorch.
 - Understand image preprocessing pipelines.
@@ -45,7 +45,7 @@ A collection of four progressively advanced image classification projects built 
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 | Category | Tools |
 |-----------|------|
@@ -59,7 +59,7 @@ A collection of four progressively advanced image classification projects built 
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 Deep-Learning/
@@ -94,7 +94,7 @@ Deep-Learning/
 
 ---
 
-# 🧠 Project 1 — Tomato Leaf Disease Classification using Multilayer Perceptron (MLP)
+#  Project 1 — Tomato Leaf Disease Classification using Multilayer Perceptron (MLP)
 
 ## Objective
 Build a baseline deep learning classifier using a fully connected neural network.
@@ -143,9 +143,7 @@ Implemented
 ### Final Results
 Established a strong baseline for later CNN-based models.
 
-### Confusion Matrix
 
-![](images/mlp_confusion_matrix.png)
 
 ### Key Learnings
 - Fundamentals of feed-forward neural networks.
@@ -154,7 +152,7 @@ Established a strong baseline for later CNN-based models.
 
 ---
 
-# 🏗 Project 2 — Tomato Leaf Disease Classification using Custom CNN
+#  Project 2 — Tomato Leaf Disease Classification using Custom CNN
 
 ## Objective
 Improve performance by learning spatial image features using convolutional layers.
@@ -203,9 +201,7 @@ Implemented
 ### Final Results
 Significant improvement over the MLP baseline through learned spatial features.
 
-### Confusion Matrix
 
-![](images/cnn_confusion_matrix.png)
 
 ### Key Learnings
 - CNNs learn local visual patterns efficiently.
@@ -214,7 +210,7 @@ Significant improvement over the MLP baseline through learned spatial features.
 
 ---
 
-# 🚀 Project 3 — Tomato Leaf Disease Classification using GoogLeNet
+#  Project 3 — Tomato Leaf Disease Classification using GoogLeNet
 
 ## Objective
 Leverage transfer learning using ImageNet pretrained GoogLeNet.
@@ -267,9 +263,7 @@ Implemented
 | Recall | **98.84%** |
 | F1-score | **98.84%** |
 
-### Confusion Matrix
 
-![](images/googlenet_confusion_matrix.png)
 
 ### Key Learnings
 - Transfer learning dramatically reduces training time.
@@ -278,7 +272,7 @@ Implemented
 
 ---
 
-# 🏆 Project 4 — Tomato Leaf Disease Classification using ResNet‑50
+#  Project 4 — Tomato Leaf Disease Classification using ResNet‑50
 
 ## Objective
 Build a high-performance classifier using pretrained ResNet‑50.
@@ -331,10 +325,6 @@ Implemented
 | Recall | **99.67%** |
 | F1-score | **99.67%** |
 
-### Confusion Matrix
-
-![](images/resnet50_confusion_matrix.png)
-
 ### Key Learnings
 - Residual connections enable very deep networks.
 - Fine tuning yields excellent performance.
@@ -342,18 +332,18 @@ Implemented
 
 ---
 
-# 📊 Model Comparison
+# Model Comparison
 
 | Model | Parameters | Transfer Learning | Accuracy | Precision | Recall | F1-score | TTA Accuracy |
 |-------|-----------:|:----------------:|---------:|----------:|-------:|---------:|-------------:|
-| MLP | N/A | ❌ | — | — | — | — | — |
-| Custom CNN | N/A | ❌ | — | — | — | — | — |
-| GoogLeNet | ~6.8M | ✅ | 98.84% | 98.85% | 98.84% | 98.84% | 99.04% |
-| ResNet‑50 | ~25.6M | ✅ | **99.67%** | **99.67%** | **99.67%** | **99.67%** | **99.75%** |
+| MLP | N/A | NO | — | — | — | — | — |
+| Custom CNN | N/A | NO | — | — | — | — | — |
+| GoogLeNet | ~6.8M | YES | 98.84% | 98.85% | 98.84% | 98.84% | 99.04% |
+| ResNet‑50 | ~25.6M | YES | **99.67%** | **99.67%** | **99.67%** | **99.67%** | **99.75%** |
 
 ---
 
-# 🔮 Future Work
+#  Future Work
 
 - EfficientNet
 - Vision Transformers
@@ -364,7 +354,7 @@ Implemented
 
 ---
 
-# ▶️ How to Run
+# How to Run
 
 ```bash
 git clone https://github.com/your-username/deep-learning.git
@@ -377,7 +367,7 @@ jupyter notebook
 
 ---
 
-# 📦 Requirements
+# Requirements
 
 ```text
 python>=3.10
@@ -392,7 +382,7 @@ jupyter
 
 ---
 
-# 👤 Author
+#  Author
 
 **Lucky Singh**
 
