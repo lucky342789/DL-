@@ -140,6 +140,13 @@ Implemented
 - F1-score
 - Per-class Accuracy
 
+## MLP Confusion Matrix
+
+<p align="center">
+  <img src="images/mlp_confusion_matrix.png" width="700">
+</p>
+
+
 ### Final Results
 Established a strong baseline for later CNN-based models.
 
@@ -198,6 +205,13 @@ Implemented
 - F1-score
 - Per-class Accuracy
 
+## CNN Confusion Matrix
+
+<p align="center">
+  <img src="images/cnn_confusion_matrix.png" width="700">
+</p>
+
+
 ### Final Results
 Significant improvement over the MLP baseline through learned spatial features.
 
@@ -252,6 +266,12 @@ Implemented
 - F1-score
 - Per-class Accuracy
 - TTA Accuracy
+
+## GoogLeNet Confusion Matrix
+
+<p align="center">
+  <img src="images/googlenet_confusion_matrix.png" width="700">
+</p>
 
 ### Final Results
 
@@ -314,6 +334,12 @@ Implemented
 - F1-score
 - Per-class Accuracy
 - TTA Accuracy
+
+## ResNet-50 Confusion Matrix
+
+<p align="center">
+  <img src="images/resnet50_confusion_matrix.png" width="700">
+</p>
 
 ### Final Results
 
